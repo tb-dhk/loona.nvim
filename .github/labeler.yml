@@ -1,0 +1,28 @@
+core:
+  - all:
+      - changed-files:
+          - any-glob-to-any-file: "lua/loona/**"
+          - all-globs-to-all-files:
+              - "!lua/loona/groups/**"
+              - "!lua/loona/colors/**"
+              - "!lua/loona/extra/**"
+
+extras:
+  - changed-files:
+      - any-glob-to-any-file: "lua/loona/extra/**"
+
+groups:
+  - changed-files:
+      - any-glob-to-any-file: "lua/loona/groups/**"
+
+base:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "lua/loona/groups/base.lua"
+          - "lua/loona/groups/kinds.lua"
+          - "lua/loona/groups/treesitter.lua"
+          - "lua/loona/groups/semantic_tokens.lua"
+
+colors:
+  - changed-files:
+      - any-glob-to-any-file: "lua/loona/colors/**"
