@@ -1,4 +1,4 @@
 lua << EOF
-local onedarker = require("onedarker")
-onedarker.setup({})
+local loona = require("")
+loona.setup({})
 EOF

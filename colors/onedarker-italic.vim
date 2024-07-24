@@ -1,4 +1,4 @@
 lua << EOF
-local onedarker-italic = require("onedarker-italic")
-onedarker-italic.setup({})
+local loona-italic = require("loona-italic")
+loona-italic.setup({})
 EOF

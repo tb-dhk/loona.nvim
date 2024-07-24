@@ -1,4 +1,4 @@
-local c = require "onedarker.palette"
+local c = require "loona.palette"
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
@@ -9,23 +9,23 @@ local italic_comments = false
 local italic_loops = false
 local italic_conditionals = false
 
-if vim.g.onedarker_italic_keywords then
+if vim.g.loona_italic_keywords then
   italic_keywords = true
 end
 
-if vim.g.onedarker_italic_functions then
+if vim.g.loona_italic_functions then
   italic_functions = true
 end
 
-if vim.g.onedarker_italic_comments then
+if vim.g.loona_italic_comments then
   italic_comments = true
 end
 
-if vim.g.onedarker_italic_loops then
+if vim.g.loona_italic_loops then
   italic_loops = true
 end
 
-if vim.g.onedarker_italic_conditionals then
+if vim.g.loona_italic_conditionals then
   italic_conditionals = true
 end
 

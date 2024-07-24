@@ -1,66 +1,64 @@
 [information]
-name = "onedarker"
+name = "loona"
 background = "dark"
-author = 'Christian Chiarulli <chrisatmachine@gmail.com>'
+author = 'tb-dhk <joshuasoh2008@gmail.com>'
 
 [palette]
-fg = '#abb2bf'
-bg = '#1e222a'
+fg = '#abb2bf'        # Light gray
+bg = '#1e222a'        # Dark gray
 
-alt_fg = '#8b92a8'
-alt_bg = '#1b1f27'
+alt_fg = '#5c2c92'    # Choerry
+alt_bg = '#1b1f27'    # Dark gray
 
-line = '#282C34'
-dark_gray = '#3e4451'
-gray = '#545862'
-context = '#6b737f'
-light_gray = '#c8ccd4'
+line = '#282C34'      # Dark gray
+dark_gray = '#7e002f' # Yves
+gray = '#545862'      # Light gray
+context = '#6b737f'   # Context
+light_gray = '#f46f1f' # Yeo-jin
 
-red = '#d05c65'
-blue = '#519fdf'
-green = '#7da869'
-cyan = '#46a6b2'
-orange = '#c18a56'
-yellow = '#d5b06b'
-purple = '#b668cd'
-magenta = '#D16D9E'
+red = '#e41a3e'       # Kim Lip
+blue = '#1424b0'      # Jinsoul
+green = '#00a651'     # Haseul
+cyan = '#30c39c'      # Gowon
+orange = '#f6907e'    # Chuu
+yellow = '#f46f1f'    # Yeo-jin
+purple = '#5c2c92'    # Choerry
+magenta = '#ff98b4'   # Vivi
 
-cursor_fg = '#415062'
-cursor_bg = '#AbAbAf'
+cursor_fg = '#415062' # Dark gray
+cursor_bg = '#ff98b4' # Vivi
 
-sign_add = '#587c0c'
-sign_change = '#0c7d9d'
-sign_delete = '#94151b'
+sign_add = '#7da869'  # Green
+sign_change = '#46a6b2' # Cyan
+sign_delete = '#d05c65' # Red
 
-sign_add_alt = '#73C991'
-sign_change_alt = '#CCA700'
+sign_add_alt = '#30c39c' # Gowon
+sign_change_alt = '#ffcc00' # Hyunjin
 
-error = '#db4b4b'
-warn = '#eeaf58'
-info = '#1cbc9b'
-hint = '#4bc1fe'
+error = '#e41a3e'      # Kim Lip
+warn = '#f46f1f'       # Yeo-jin
+info = '#30c39c'       # Gowon
+hint = '#7e002f'       # Yves
 
-error_bg = '#31262d'
-warn_bg = '#32302f'
-info_bg = '#1e3135'
-hint_bg = '#22323f'
+error_bg = '#ff002f'   # Kim Lip
+warn_bg = '#ff6e14'    # Yeo-jin
+info_bg = '#00a651'    # Haseul
+hint_bg = '#8f8f8f'    # Hyeju 
 
+reference = '#1e222a'  # Dark gray
+success_green = '#7da869' # Green
+folder_blue = '#1424b0'  # Jinsoul
 
-reference = '#2e303b'
-success_green = '#14C50B'
-folder_blue = '#42A5F5'
+ui_blue = '#1424b0'    # Jinsoul
+ui2_blue = '#0019ff'   # Jinsoul
+ui3_blue = '#0055ff'   # Hypothetical closest match
+ui4_blue = '#75BEFF'   # Hypothetical closest match
+ui5_blue = '#083C5A'   # Hypothetical closest match
+ui_orange = '#ff6e14'  # Yeo-jin
+ui2_orange = '#ffcc00' # Hyunjin
+ui_purple = '#5c2c92'  # Choerry
 
-
-ui_blue = '#264F78'
-ui2_blue = '#042E48'
-ui3_blue = '#0195F7'
-ui4_blue = '#75BEFF'
-ui5_blue = '#083C5A'
-ui_orange = '#E8AB53'
-ui2_orange = '#613214'
-ui_purple = '#B180D7'
-
-# green = '#88b369'
+green = '#00a651'      # Haseul
 
 [Editor]
 Normal = 'fg bg'
@@ -420,6 +418,7 @@ StatusLineTerm = 'line'
 StatusLineTermNC = 'line'
 
 [IndentBlankline]
+replace all of
 IndentBlanklineContextChar = 'context'
 IndentBlanklineContextStart = '- - u'
 IndentBlanklineChar = 'dark_gray'
